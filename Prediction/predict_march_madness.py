@@ -29,8 +29,8 @@ import warnings, sys
 warnings.filterwarnings("ignore")
 
 # ── paths ───────────────────────────────────────────────────────────
-DATA = Path("/mnt/user-data/uploads")
-OUT  = Path("/mnt/user-data/outputs")
+DATA = Path("/Users/Nico/Documents/GitHub/March_Machine_Learing_Mania_2026")
+OUT  = Path("/Users/Nico/Documents/GitHub/March_Machine_Learing_Mania_2026/Prediction")
 OUT.mkdir(exist_ok=True)
 
 # ── helper: load CSV (handles \r\n) ────────────────────────────────
